@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 2px rgb(149, 138, 138) solid;
+            margin-bottom: 20px;
+        }
+        .relationship{
+            font: bolder;
+            color: black;
+        }
+        .postImage{
+            width: 340px;
+        }
+        .profilePage{
+            margin: auto;
+            width: 700px;
+        }
+    </style>
+
+    <title>insta485</title>
+</head>
+
+
+
+<body>
+    <div class="menu">
+        <!--logo link-->
+        <div>
+            <div style="display: flex;">
+                <a href="/">
+                    <img src="/images/ins_logo_black.png" 
+                    alt="ins logo" 
+                    style="width:42px;height:42px;">
+                </a>
+                <p style="font-size: large;">&emsp;|&emsp;Insta485</p>
+            </div>
+        </div>
+
+        <!--explore and awdeorio-->
+        <div style="font-size: larger;">
+            <a href="/explore/" style="color: black;">
+                /explore
+            </a>
+            <a href="/users/awdeorio/" style="color: black;">
+                /awdeorio
+            </a>
+        </div>
+    </div>
+
+    <div class="profilePage">
+        <!-- username -->
+        <p style="font-size:xx-large;"><strong>awdeorio</strong></p>
+
+         <!-- relationship -->
+        <p>
+            2 posts 
+            <a href="/users/awdeorio/followers/" class="relationship"><strong>2 followers </strong></a>
+            <a href="/users/awdeorio/following/" class="relationship"><strong>2 following</strong></a>
+        </p>
+
+        <!-- name -->
+        <p style="font-size: larger;">Andrew DeOrio</p>
+        <!-- posts image -->
+        <div>
+            <a href="/posts/1/">
+                <img src="/uploads/122a7d27ca1d7420a1072f695d9290fad4501a41.jpg" class="postImage" alt="awdeorio_post_image">
+            </a>
+            <a href="/posts/3/">
+                <img src="/uploads/9887e06812ef434d291e4936417d125cd594b38a.jpg" class="postImage" alt="awdeorio_post_image">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
