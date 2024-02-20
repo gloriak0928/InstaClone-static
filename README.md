@@ -1,4 +1,4 @@
-EECS 485 Project 1 Solution
+InstaClone-static
 ===========================
 Templated Static Site Generator
 
